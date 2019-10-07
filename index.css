@@ -1,9 +1,10 @@
-/* FAKE GOOGLE CSS */
-
 *{
     margin=0;
     padding: 0;
 }
+ 
+ { margin: 50px }
+
 body{
     font-family: Arial, sans-serif;
     font-size: 13px;
@@ -20,29 +21,44 @@ h1#logo{
     background-size: 100%;
     text-indent: -99999px;
     margin: 0 auto;
+    margin-top: 170px;
+    margin-bottom: 30px;
 }
 
 input[type="text"] {
     width: 580px;
-    padding: 6px;
-    margin:25px 0 10px;
-    border:solid 1px #ccc;
+    padding: 18px;
+    margin:25px 0 20px;
+    border: none;
     font-size:16px;
+    border-radius: 50px;
+    outline: none;
 }
-input[type="text"]:hover {
-    border-color: #aaa;
+
+.glas{
+    margin-left: -650px;
+    position: absolute;
+    z-index: -10;
+    margin-bottom: -10px;
+    margin-top: 20px
+}
+
+
+.zoeken[type="text"]:hover {
+    box-shadow: 1px 1px 3px 4px #ccc;
 }
 input[type="submit"] {
     background: #eee;
-    color: #333;
+    color: #696969;
     width: 132px;
     padding: 6px;
     margin:25px 8px 10px 0;
     border:solid 0px #ddd;
-    font-size:14px;
+    font-size: 14px;
     font-family: Arial, sans-serif;
     font-weight: bold; 
     border:solid 0.5px #ddd;
+    border-radius: 5px;
 }
 input[type="submit"]:hover {
     border-color: #ccc;
@@ -58,7 +74,7 @@ a:link, a:visited {
 }
 nav#header{
     text-align:right;
-    padding: 20px;
+    padding-top: 1px;
 }
 nav#header ul li{
     display:inline;    
